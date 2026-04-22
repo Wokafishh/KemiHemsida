@@ -1,8 +1,59 @@
-/* General stuff */
+/* ── Variables ───────────────────────────────────────────── */
+:root {
+    --alpha: 0.8;
+
+    --color-alkali:     hsla(0,   75%, 60%, var(--alpha));
+    --color-alkaline:   hsla(33,  85%, 56%, var(--alpha));
+    --color-transition: hsla(213, 65%, 57%, var(--alpha));
+    --color-post_trans: hsla(93,  43%, 61%, var(--alpha));
+    --color-metalloid:  hsla(50,  55%, 55%, var(--alpha));
+    --color-nonmetal:   hsla(120, 43%, 55%, var(--alpha));
+    --color-halogen:    hsla(308, 35%, 70%, var(--alpha));
+    --color-noble:      hsla(290, 40%, 63%, var(--alpha));
+    --color-lanthanide: hsla(188, 52%, 55%, var(--alpha));
+    --color-actinide:   hsla(120, 32%, 60%, var(--alpha));
+    --color-unknown:    hsla(0,   0%,  69%, var(--alpha));
+
+    --color-text:        #1a1a1a;
+    --color-bg:          #f4f1ec;
+    --color-input-bg:    #e0ddd7;
+    --color-input-border:#999;
+    --color-button-bg:   #4a90d9;
+    --color-button-border:#2a6db5;
+    --color-box-bg:      #e8e4de;
+    --color-box-border:  #4a90d9;
+}
+
+html.dark {
+    --alpha: 0.5;
+
+    --color-alkali:     hsla(0,   75%, 55%, var(--alpha));
+    --color-alkaline:   hsla(33,  85%, 50%, var(--alpha));
+    --color-transition: hsla(213, 65%, 52%, var(--alpha));
+    --color-post_trans: hsla(93,  43%, 55%, var(--alpha));
+    --color-metalloid:  hsla(50,  55%, 48%, var(--alpha));
+    --color-nonmetal:   hsla(120, 43%, 48%, var(--alpha));
+    --color-halogen:    hsla(308, 35%, 62%, var(--alpha));
+    --color-noble:      hsla(290, 40%, 55%, var(--alpha));
+    --color-lanthanide: hsla(188, 52%, 48%, var(--alpha));
+    --color-actinide:   hsla(120, 32%, 52%, var(--alpha));
+    --color-unknown:    hsla(0,   0%,  55%, var(--alpha));
+
+    --color-text:        #f0f0f0;
+    --color-bg:          #09091a;
+    --color-input-bg:    #2d2d2d;
+    --color-input-border:#555;
+    --color-button-bg:   #4a90d9;
+    --color-button-border:#1e1e1e;
+    --color-box-bg:      #1e1e1e;
+    --color-box-border:  #4a90d9;
+}
+
+/* ── General ─────────────────────────────────────────────── */
 body {
     font-family: Consolas, monospace;
-    background: #1e1e1e;
-    color: white;
+    background: var(--color-bg);
+    color: var(--color-text);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,35 +62,35 @@ body {
 
 input {
     padding: 8px 18px;
-    border: 1px solid #555;
+    border: 1px solid var(--color-input-border);
     border-radius: 4px;
-    background: #2d2d2d;
-    color: white;
+    background: var(--color-input-bg);
+    color: var(--color-text);
     font-size: 16px;
 }
 
 button {
     padding: 8px 8px;
-    background: #4a90d9;
-    color: white;
-    border: 2px solid #1e1e1e;
-    border-radius:8px;
+    background: var(--color-button-bg);
+    color: var(--color-text);
+    border: 2px solid var(--color-button-border);
+    border-radius: 8px;
     font-size: 16px;
     cursor: pointer;
 }
 
-/* Id targeting */
+/* ── IDs ─────────────────────────────────────────────────── */
 #button_grid {
-    display: grid;   
+    display: grid;
 }
 
 #ptable_container {
-  display: flex;
-  justify-content: center;  
-  align-items: stretch;
-  flex-direction: row;
-  gap: 20px;
-  width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
 }
 
 #display_box {
@@ -47,26 +98,21 @@ button {
     width: 300px;
     height: auto;
     padding: 12px;
-
-    background-color: #1e1e1e;
-    color: #ffffff;
-
-    border: 2px solid #4a90d9;
+    background-color: var(--color-box-bg);
+    color: var(--color-text);
+    border: 2px solid var(--color-box-border);
     border-radius: 10px;
-
     font-size: 18px;
     font-family: Arial, sans-serif;
-
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
     text-align: center;
     overflow: hidden;
 }
 
-/* Class targeting */
+/* ── Classes ─────────────────────────────────────────────── */
 .element_div {
     position: relative;
     width: 40px;
@@ -86,11 +132,23 @@ button {
 }
 
 .corner {
-    position: absolute ;
+    position: absolute;
     margin: 1rem;
 }
 
-.corner.top_left     { top: 0;    left: 0; }
+.corner.top_left     { top: 0;    left: 0;  }
 .corner.top_right    { top: 0;    right: 0; }
-.corner.bottom_left  { bottom: 0; left: 0; }
+.corner.bottom_left  { bottom: 0; left: 0;  }
 .corner.bottom_right { bottom: 0; right: 0; }
+
+.type-alkali     { background-color: var(--color-alkali); }
+.type-alkaline   { background-color: var(--color-alkaline); }
+.type-transition { background-color: var(--color-transition); }
+.type-post_trans { background-color: var(--color-post_trans); }
+.type-metalloid  { background-color: var(--color-metalloid); }
+.type-nonmetal   { background-color: var(--color-nonmetal); }
+.type-halogen    { background-color: var(--color-halogen); }
+.type-noble      { background-color: var(--color-noble); }
+.type-lanthanide { background-color: var(--color-lanthanide); }
+.type-actinide   { background-color: var(--color-actinide); }
+.type-unknown    { background-color: var(--color-unknown); }

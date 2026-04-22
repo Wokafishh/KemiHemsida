@@ -9,7 +9,7 @@ class niceButton {
 
         this.container = document.createElement("div");
         this.container.className = "element_div";
-        this.container.style.backgroundColor = COLORS[element_data.type];
+        this.container.classList.add(`type-${element_data.type}`);
         this.container.textContent = element_data.symbol;
 
         this.button = document.createElement("button");
@@ -42,13 +42,6 @@ class displayBox {
 }
 
 // <-- FUNCTIONS -->
-
-function display_element() {
-    input = document.getElementById("user_input")
-    input_text = input.value
-    console.log(String(input_text))
-}
-
 async function populate_button_grid() {
     const res = await fetch("elements.json")
     const data = await res.json()
@@ -67,21 +60,13 @@ async function populate_button_grid() {
     }
 }
 
-// <-- EXECUTE -->
-
-const COLORS = {
-    "alkali":       "#e84c4c",  
-    "alkaline":     "#f0a030",  
-    "transition":   "#4a90d9",  
-    "post_trans":   "#a0c878",  
-    "metalloid":    "#c8b850",
-    "nonmetal":     "#60b860",  
-    "halogen":      "#d4a0c8",  
-    "noble":        "#c080c0",  
-    "lanthanide":   "#48b8c8",  
-    "actinide":     "#78b878",  
-    "unknown":      "#b0b0b0",  
+function toggle_dark_mode() {
+    const isDark = document.documentElement.classList.toggle("dark");
+    localStorage.setItem("dark", isDark);
+    document.getElementById("theme_btn").textContent = isDark ? "🌙 Dark mode" : "☀️ Light mode" ;
 }
+
+// <-- On load -->
 
 const GRID_SIZE = [18, 9]
 let data = null
@@ -94,4 +79,6 @@ const display_box = document.getElementById("display_box")
 const db = new displayBox()
 
 
-
+if (localStorage.getItem("dark") === "true") {
+    document.documentElement.classList.add("dark");
+}
