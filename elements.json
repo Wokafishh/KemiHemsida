@@ -1,0 +1,2684 @@
+{
+    "elements": [
+        {
+            "symbol": "H",
+            "atomic_number": 1,
+            "valence_electrons": 1,
+            "name_en": "Hydrogen",
+            "name_sv": "Väte",
+            "type": "nonmetal",
+            "atomic_weight": 1.008,
+            "year_discovered": 1766,
+            "discovered_by": "Henry Cavendish",
+            "isotopes": [
+                "H-1",
+                "H-2",
+                "H-3"
+            ],
+            "electrons_per_level": [
+                1
+            ]
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+            "symbol": "He",
+            "atomic_number": 2,
+            "valence_electrons": 2,
+            "name_en": "Helium",
+            "name_sv": "Helium",
+            "type": "noble",
+            "atomic_weight": 4.003,
+            "year_discovered": 1868,
+            "discovered_by": "Janssen & Lockyer",
+            "isotopes": [
+                "He-4",
+                "He-3"
+            ],
+            "electrons_per_level": [
+                2
+            ]
+        },
+        {
+            "symbol": "Li",
+            "atomic_number": 3,
+            "valence_electrons": 1,
+            "name_en": "Lithium",
+            "name_sv": "Litium",
+            "type": "alkali",
+            "atomic_weight": 6.941,
+            "year_discovered": 1817,
+            "discovered_by": "Johan Arfwedson",
+            "isotopes": [
+                "Li-7",
+                "Li-6"
+            ],
+            "electrons_per_level": [
+                2,
+                1
+            ]
+        },
+        {
+            "symbol": "Be",
+            "atomic_number": 4,
+            "valence_electrons": 2,
+            "name_en": "Beryllium",
+            "name_sv": "Beryllium",
+            "type": "alkaline",
+            "atomic_weight": 9.012,
+            "year_discovered": 1798,
+            "discovered_by": "Louis-Nicolas Vauquelin",
+            "isotopes": [
+                "Be-9"
+            ],
+            "electrons_per_level": [
+                2,
+                2
+            ]
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+            "symbol": "B",
+            "atomic_number": 5,
+            "valence_electrons": 3,
+            "name_en": "Boron",
+            "name_sv": "Bor",
+            "type": "metalloid",
+            "atomic_weight": 10.81,
+            "year_discovered": 1808,
+            "discovered_by": "Gay-Lussac & Thenard",
+            "isotopes": [
+                "B-11",
+                "B-10"
+            ],
+            "electrons_per_level": [
+                2,
+                3
+            ]
+        },
+        {
+            "symbol": "C",
+            "atomic_number": 6,
+            "valence_electrons": 4,
+            "name_en": "Carbon",
+            "name_sv": "Kol",
+            "type": "nonmetal",
+            "atomic_weight": 12.011,
+            "year_discovered": null,
+            "discovered_by": "Ancient",
+            "isotopes": [
+                "C-12",
+                "C-13",
+                "C-14"
+            ],
+            "electrons_per_level": [
+                2,
+                4
+            ]
+        },
+        {
+            "symbol": "N",
+            "atomic_number": 7,
+            "valence_electrons": 5,
+            "name_en": "Nitrogen",
+            "name_sv": "Kväve",
+            "type": "nonmetal",
+            "atomic_weight": 14.007,
+            "year_discovered": 1772,
+            "discovered_by": "Daniel Rutherford",
+            "isotopes": [
+                "N-14",
+                "N-15"
+            ],
+            "electrons_per_level": [
+                2,
+                5
+            ]
+        },
+        {
+            "symbol": "O",
+            "atomic_number": 8,
+            "valence_electrons": 6,
+            "name_en": "Oxygen",
+            "name_sv": "Syre",
+            "type": "nonmetal",
+            "atomic_weight": 15.999,
+            "year_discovered": 1774,
+            "discovered_by": "Carl Wilhelm Scheele",
+            "isotopes": [
+                "O-16",
+                "O-17",
+                "O-18"
+            ],
+            "electrons_per_level": [
+                2,
+                6
+            ]
+        },
+        {
+            "symbol": "F",
+            "atomic_number": 9,
+            "valence_electrons": 7,
+            "name_en": "Fluorine",
+            "name_sv": "Fluor",
+            "type": "halogen",
+            "atomic_weight": 18.998,
+            "year_discovered": 1886,
+            "discovered_by": "Henri Moissan",
+            "isotopes": [
+                "F-19"
+            ],
+            "electrons_per_level": [
+                2,
+                7
+            ]
+        },
+        {
+            "symbol": "Ne",
+            "atomic_number": 10,
+            "valence_electrons": 8,
+            "name_en": "Neon",
+            "name_sv": "Neon",
+            "type": "noble",
+            "atomic_weight": 20.18,
+            "year_discovered": 1898,
+            "discovered_by": "Ramsay & Travers",
+            "isotopes": [
+                "Ne-20",
+                "Ne-22",
+                "Ne-21"
+            ],
+            "electrons_per_level": [
+                2,
+                8
+            ]
+        },
+        {
+            "symbol": "Na",
+            "atomic_number": 11,
+            "valence_electrons": 1,
+            "name_en": "Sodium",
+            "name_sv": "Natrium",
+            "type": "alkali",
+            "atomic_weight": 22.99,
+            "year_discovered": 1807,
+            "discovered_by": "Humphry Davy",
+            "isotopes": [
+                "Na-23"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                1
+            ]
+        },
+        {
+            "symbol": "Mg",
+            "atomic_number": 12,
+            "valence_electrons": 2,
+            "name_en": "Magnesium",
+            "name_sv": "Magnesium",
+            "type": "alkaline",
+            "atomic_weight": 24.305,
+            "year_discovered": 1808,
+            "discovered_by": "Humphry Davy",
+            "isotopes": [
+                "Mg-24",
+                "Mg-26",
+                "Mg-25"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                2
+            ]
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+            "symbol": "Al",
+            "atomic_number": 13,
+            "valence_electrons": 3,
+            "name_en": "Aluminium",
+            "name_sv": "Aluminium",
+            "type": "post_trans",
+            "atomic_weight": 26.982,
+            "year_discovered": 1825,
+            "discovered_by": "Hans Christian Orsted",
+            "isotopes": [
+                "Al-27"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                3
+            ]
+        },
+        {
+            "symbol": "Si",
+            "atomic_number": 14,
+            "valence_electrons": 4,
+            "name_en": "Silicon",
+            "name_sv": "Kisel",
+            "type": "metalloid",
+            "atomic_weight": 28.086,
+            "year_discovered": 1824,
+            "discovered_by": "Jons Jacob Berzelius",
+            "isotopes": [
+                "Si-28",
+                "Si-29",
+                "Si-30"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                4
+            ]
+        },
+        {
+            "symbol": "P",
+            "atomic_number": 15,
+            "valence_electrons": 5,
+            "name_en": "Phosphorus",
+            "name_sv": "Fosfor",
+            "type": "nonmetal",
+            "atomic_weight": 30.974,
+            "year_discovered": 1669,
+            "discovered_by": "Hennig Brand",
+            "isotopes": [
+                "P-31"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                5
+            ]
+        },
+        {
+            "symbol": "S",
+            "atomic_number": 16,
+            "valence_electrons": 6,
+            "name_en": "Sulfur",
+            "name_sv": "Svavel",
+            "type": "nonmetal",
+            "atomic_weight": 32.06,
+            "year_discovered": null,
+            "discovered_by": "Ancient",
+            "isotopes": [
+                "S-32",
+                "S-34",
+                "S-33"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                6
+            ]
+        },
+        {
+            "symbol": "Cl",
+            "atomic_number": 17,
+            "valence_electrons": 7,
+            "name_en": "Chlorine",
+            "name_sv": "Klor",
+            "type": "halogen",
+            "atomic_weight": 35.45,
+            "year_discovered": 1774,
+            "discovered_by": "Carl Wilhelm Scheele",
+            "isotopes": [
+                "Cl-35",
+                "Cl-37"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                7
+            ]
+        },
+        {
+            "symbol": "Ar",
+            "atomic_number": 18,
+            "valence_electrons": 8,
+            "name_en": "Argon",
+            "name_sv": "Argon",
+            "type": "noble",
+            "atomic_weight": 39.948,
+            "year_discovered": 1894,
+            "discovered_by": "Rayleigh & Ramsay",
+            "isotopes": [
+                "Ar-40",
+                "Ar-36",
+                "Ar-38"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                8
+            ]
+        },
+        {
+            "symbol": "K",
+            "atomic_number": 19,
+            "valence_electrons": 1,
+            "name_en": "Potassium",
+            "name_sv": "Kalium",
+            "type": "alkali",
+            "atomic_weight": 39.098,
+            "year_discovered": 1807,
+            "discovered_by": "Humphry Davy",
+            "isotopes": [
+                "K-39",
+                "K-41",
+                "K-40"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                8,
+                1
+            ]
+        },
+        {
+            "symbol": "Ca",
+            "atomic_number": 20,
+            "valence_electrons": 2,
+            "name_en": "Calcium",
+            "name_sv": "Kalcium",
+            "type": "alkaline",
+            "atomic_weight": 40.078,
+            "year_discovered": 1808,
+            "discovered_by": "Humphry Davy",
+            "isotopes": [
+                "Ca-40",
+                "Ca-44",
+                "Ca-42"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                8,
+                2
+            ]
+        },
+        {
+            "symbol": "Sc",
+            "atomic_number": 21,
+            "valence_electrons": 2,
+            "name_en": "Scandium",
+            "name_sv": "Skandium",
+            "type": "transition",
+            "atomic_weight": 44.956,
+            "year_discovered": 1879,
+            "discovered_by": "Lars Fredrik Nilson",
+            "isotopes": [
+                "Sc-45"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                9,
+                2
+            ]
+        },
+        {
+            "symbol": "Ti",
+            "atomic_number": 22,
+            "valence_electrons": 2,
+            "name_en": "Titanium",
+            "name_sv": "Titan",
+            "type": "transition",
+            "atomic_weight": 47.867,
+            "year_discovered": 1791,
+            "discovered_by": "William Gregor",
+            "isotopes": [
+                "Ti-48",
+                "Ti-46",
+                "Ti-47"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                10,
+                2
+            ]
+        },
+        {
+            "symbol": "V",
+            "atomic_number": 23,
+            "valence_electrons": 2,
+            "name_en": "Vanadium",
+            "name_sv": "Vanadin",
+            "type": "transition",
+            "atomic_weight": 50.942,
+            "year_discovered": 1830,
+            "discovered_by": "Nils Gabriel Sefstrom",
+            "isotopes": [
+                "V-51",
+                "V-50"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                11,
+                2
+            ]
+        },
+        {
+            "symbol": "Cr",
+            "atomic_number": 24,
+            "valence_electrons": 2,
+            "name_en": "Chromium",
+            "name_sv": "Krom",
+            "type": "transition",
+            "atomic_weight": 51.996,
+            "year_discovered": 1798,
+            "discovered_by": "Louis-Nicolas Vauquelin",
+            "isotopes": [
+                "Cr-52",
+                "Cr-53",
+                "Cr-50"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                13,
+                1
+            ]
+        },
+        {
+            "symbol": "Mn",
+            "atomic_number": 25,
+            "valence_electrons": 2,
+            "name_en": "Manganese",
+            "name_sv": "Mangan",
+            "type": "transition",
+            "atomic_weight": 54.938,
+            "year_discovered": 1774,
+            "discovered_by": "Carl Wilhelm Scheele",
+            "isotopes": [
+                "Mn-55"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                13,
+                2
+            ]
+        },
+        {
+            "symbol": "Fe",
+            "atomic_number": 26,
+            "valence_electrons": 2,
+            "name_en": "Iron",
+            "name_sv": "Jarn",
+            "type": "transition",
+            "atomic_weight": 55.845,
+            "year_discovered": null,
+            "discovered_by": "Ancient",
+            "isotopes": [
+                "Fe-56",
+                "Fe-54",
+                "Fe-57"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                14,
+                2
+            ]
+        },
+        {
+            "symbol": "Co",
+            "atomic_number": 27,
+            "valence_electrons": 2,
+            "name_en": "Cobalt",
+            "name_sv": "Kobolt",
+            "type": "transition",
+            "atomic_weight": 58.933,
+            "year_discovered": 1735,
+            "discovered_by": "Georg Brandt",
+            "isotopes": [
+                "Co-59"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                15,
+                2
+            ]
+        },
+        {
+            "symbol": "Ni",
+            "atomic_number": 28,
+            "valence_electrons": 2,
+            "name_en": "Nickel",
+            "name_sv": "Nickel",
+            "type": "transition",
+            "atomic_weight": 58.693,
+            "year_discovered": 1751,
+            "discovered_by": "Axel Fredrik Cronstedt",
+            "isotopes": [
+                "Ni-58",
+                "Ni-60",
+                "Ni-62"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                16,
+                2
+            ]
+        },
+        {
+            "symbol": "Cu",
+            "atomic_number": 29,
+            "valence_electrons": 1,
+            "name_en": "Copper",
+            "name_sv": "Koppar",
+            "type": "transition",
+            "atomic_weight": 63.546,
+            "year_discovered": null,
+            "discovered_by": "Ancient",
+            "isotopes": [
+                "Cu-63",
+                "Cu-65"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                1
+            ]
+        },
+        {
+            "symbol": "Zn",
+            "atomic_number": 30,
+            "valence_electrons": 2,
+            "name_en": "Zinc",
+            "name_sv": "Zink",
+            "type": "transition",
+            "atomic_weight": 65.38,
+            "year_discovered": 1746,
+            "discovered_by": "Andreas Sigismund Marggraf",
+            "isotopes": [
+                "Zn-64",
+                "Zn-66",
+                "Zn-68"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                2
+            ]
+        },
+        {
+            "symbol": "Ga",
+            "atomic_number": 31,
+            "valence_electrons": 3,
+            "name_en": "Gallium",
+            "name_sv": "Gallium",
+            "type": "post_trans",
+            "atomic_weight": 69.723,
+            "year_discovered": 1875,
+            "discovered_by": "Paul-Emile Lecoq de Boisbaudran",
+            "isotopes": [
+                "Ga-69",
+                "Ga-71"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                3
+            ]
+        },
+        {
+            "symbol": "Ge",
+            "atomic_number": 32,
+            "valence_electrons": 4,
+            "name_en": "Germanium",
+            "name_sv": "Germanium",
+            "type": "metalloid",
+            "atomic_weight": 72.63,
+            "year_discovered": 1886,
+            "discovered_by": "Clemens Winkler",
+            "isotopes": [
+                "Ge-74",
+                "Ge-72",
+                "Ge-70"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                4
+            ]
+        },
+        {
+            "symbol": "As",
+            "atomic_number": 33,
+            "valence_electrons": 5,
+            "name_en": "Arsenic",
+            "name_sv": "Arsenik",
+            "type": "metalloid",
+            "atomic_weight": 74.922,
+            "year_discovered": 1250,
+            "discovered_by": "Albertus Magnus",
+            "isotopes": [
+                "As-75"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                5
+            ]
+        },
+        {
+            "symbol": "Se",
+            "atomic_number": 34,
+            "valence_electrons": 6,
+            "name_en": "Selenium",
+            "name_sv": "Selen",
+            "type": "nonmetal",
+            "atomic_weight": 78.971,
+            "year_discovered": 1817,
+            "discovered_by": "Jons Jacob Berzelius",
+            "isotopes": [
+                "Se-80",
+                "Se-78",
+                "Se-76"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                6
+            ]
+        },
+        {
+            "symbol": "Br",
+            "atomic_number": 35,
+            "valence_electrons": 7,
+            "name_en": "Bromine",
+            "name_sv": "Brom",
+            "type": "halogen",
+            "atomic_weight": 79.904,
+            "year_discovered": 1826,
+            "discovered_by": "Antoine Balard",
+            "isotopes": [
+                "Br-79",
+                "Br-81"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                7
+            ]
+        },
+        {
+            "symbol": "Kr",
+            "atomic_number": 36,
+            "valence_electrons": 8,
+            "name_en": "Krypton",
+            "name_sv": "Krypton",
+            "type": "noble",
+            "atomic_weight": 83.798,
+            "year_discovered": 1898,
+            "discovered_by": "Ramsay & Travers",
+            "isotopes": [
+                "Kr-84",
+                "Kr-86",
+                "Kr-82"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                8
+            ]
+        },
+        {
+            "symbol": "Rb",
+            "atomic_number": 37,
+            "valence_electrons": 1,
+            "name_en": "Rubidium",
+            "name_sv": "Rubidium",
+            "type": "alkali",
+            "atomic_weight": 85.468,
+            "year_discovered": 1861,
+            "discovered_by": "Bunsen & Kirchhoff",
+            "isotopes": [
+                "Rb-85",
+                "Rb-87"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                8,
+                1
+            ]
+        },
+        {
+            "symbol": "Sr",
+            "atomic_number": 38,
+            "valence_electrons": 2,
+            "name_en": "Strontium",
+            "name_sv": "Strontium",
+            "type": "alkaline",
+            "atomic_weight": 87.62,
+            "year_discovered": 1790,
+            "discovered_by": "William Cruickshank",
+            "isotopes": [
+                "Sr-88",
+                "Sr-86",
+                "Sr-87"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                8,
+                2
+            ]
+        },
+        {
+            "symbol": "Y",
+            "atomic_number": 39,
+            "valence_electrons": 2,
+            "name_en": "Yttrium",
+            "name_sv": "Yttrium",
+            "type": "transition",
+            "atomic_weight": 88.906,
+            "year_discovered": 1794,
+            "discovered_by": "Johan Gadolin",
+            "isotopes": [
+                "Y-89"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                9,
+                2
+            ]
+        },
+        {
+            "symbol": "Zr",
+            "atomic_number": 40,
+            "valence_electrons": 2,
+            "name_en": "Zirconium",
+            "name_sv": "Zirkonium",
+            "type": "transition",
+            "atomic_weight": 91.224,
+            "year_discovered": 1789,
+            "discovered_by": "Martin Heinrich Klaproth",
+            "isotopes": [
+                "Zr-90",
+                "Zr-92",
+                "Zr-94"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                10,
+                2
+            ]
+        },
+        {
+            "symbol": "Nb",
+            "atomic_number": 41,
+            "valence_electrons": 2,
+            "name_en": "Niobium",
+            "name_sv": "Niob",
+            "type": "transition",
+            "atomic_weight": 92.906,
+            "year_discovered": 1801,
+            "discovered_by": "Charles Hatchett",
+            "isotopes": [
+                "Nb-93"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                12,
+                1
+            ]
+        },
+        {
+            "symbol": "Mo",
+            "atomic_number": 42,
+            "valence_electrons": 2,
+            "name_en": "Molybdenum",
+            "name_sv": "Molybden",
+            "type": "transition",
+            "atomic_weight": 95.95,
+            "year_discovered": 1781,
+            "discovered_by": "Carl Wilhelm Scheele",
+            "isotopes": [
+                "Mo-98",
+                "Mo-96",
+                "Mo-95"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                13,
+                1
+            ]
+        },
+        {
+            "symbol": "Tc",
+            "atomic_number": 43,
+            "valence_electrons": 2,
+            "name_en": "Technetium",
+            "name_sv": "Teknetium",
+            "type": "transition",
+            "atomic_weight": 98.0,
+            "year_discovered": 1937,
+            "discovered_by": "Perrier & Segre",
+            "isotopes": [
+                "Tc-97",
+                "Tc-98",
+                "Tc-99"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                13,
+                2
+            ]
+        },
+        {
+            "symbol": "Ru",
+            "atomic_number": 44,
+            "valence_electrons": 2,
+            "name_en": "Ruthenium",
+            "name_sv": "Rutenium",
+            "type": "transition",
+            "atomic_weight": 101.07,
+            "year_discovered": 1844,
+            "discovered_by": "Karl Ernst Claus",
+            "isotopes": [
+                "Ru-102",
+                "Ru-104",
+                "Ru-101"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                15,
+                1
+            ]
+        },
+        {
+            "symbol": "Rh",
+            "atomic_number": 45,
+            "valence_electrons": 2,
+            "name_en": "Rhodium",
+            "name_sv": "Rodium",
+            "type": "transition",
+            "atomic_weight": 102.906,
+            "year_discovered": 1803,
+            "discovered_by": "William Hyde Wollaston",
+            "isotopes": [
+                "Rh-103"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                16,
+                1
+            ]
+        },
+        {
+            "symbol": "Pd",
+            "atomic_number": 46,
+            "valence_electrons": 2,
+            "name_en": "Palladium",
+            "name_sv": "Palladium",
+            "type": "transition",
+            "atomic_weight": 106.42,
+            "year_discovered": 1803,
+            "discovered_by": "William Hyde Wollaston",
+            "isotopes": [
+                "Pd-108",
+                "Pd-106",
+                "Pd-104"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                18
+            ]
+        },
+        {
+            "symbol": "Ag",
+            "atomic_number": 47,
+            "valence_electrons": 1,
+            "name_en": "Silver",
+            "name_sv": "Silver",
+            "type": "transition",
+            "atomic_weight": 107.868,
+            "year_discovered": null,
+            "discovered_by": "Ancient",
+            "isotopes": [
+                "Ag-107",
+                "Ag-109"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                18,
+                1
+            ]
+        },
+        {
+            "symbol": "Cd",
+            "atomic_number": 48,
+            "valence_electrons": 2,
+            "name_en": "Cadmium",
+            "name_sv": "Kadmium",
+            "type": "transition",
+            "atomic_weight": 112.414,
+            "year_discovered": 1817,
+            "discovered_by": "Stromeyer & Hermann",
+            "isotopes": [
+                "Cd-114",
+                "Cd-112",
+                "Cd-111"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                18,
+                2
+            ]
+        },
+        {
+            "symbol": "In",
+            "atomic_number": 49,
+            "valence_electrons": 3,
+            "name_en": "Indium",
+            "name_sv": "Indium",
+            "type": "post_trans",
+            "atomic_weight": 114.818,
+            "year_discovered": 1863,
+            "discovered_by": "Reich & Richter",
+            "isotopes": [
+                "In-115",
+                "In-113"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                18,
+                3
+            ]
+        },
+        {
+            "symbol": "Sn",
+            "atomic_number": 50,
+            "valence_electrons": 4,
+            "name_en": "Tin",
+            "name_sv": "Tenn",
+            "type": "post_trans",
+            "atomic_weight": 118.71,
+            "year_discovered": null,
+            "discovered_by": "Ancient",
+            "isotopes": [
+                "Sn-120",
+                "Sn-118",
+                "Sn-116"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                18,
+                4
+            ]
+        },
+        {
+            "symbol": "Sb",
+            "atomic_number": 51,
+            "valence_electrons": 5,
+            "name_en": "Antimony",
+            "name_sv": "Antimon",
+            "type": "metalloid",
+            "atomic_weight": 121.76,
+            "year_discovered": null,
+            "discovered_by": "Ancient",
+            "isotopes": [
+                "Sb-121",
+                "Sb-123"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                18,
+                5
+            ]
+        },
+        {
+            "symbol": "Te",
+            "atomic_number": 52,
+            "valence_electrons": 6,
+            "name_en": "Tellurium",
+            "name_sv": "Tellur",
+            "type": "metalloid",
+            "atomic_weight": 127.6,
+            "year_discovered": 1782,
+            "discovered_by": "Franz-Joseph Muller",
+            "isotopes": [
+                "Te-130",
+                "Te-128",
+                "Te-126"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                18,
+                6
+            ]
+        },
+        {
+            "symbol": "I",
+            "atomic_number": 53,
+            "valence_electrons": 7,
+            "name_en": "Iodine",
+            "name_sv": "Jod",
+            "type": "halogen",
+            "atomic_weight": 126.904,
+            "year_discovered": 1811,
+            "discovered_by": "Bernard Courtois",
+            "isotopes": [
+                "I-127"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                18,
+                7
+            ]
+        },
+        {
+            "symbol": "Xe",
+            "atomic_number": 54,
+            "valence_electrons": 8,
+            "name_en": "Xenon",
+            "name_sv": "Xenon",
+            "type": "noble",
+            "atomic_weight": 131.293,
+            "year_discovered": 1898,
+            "discovered_by": "Ramsay & Travers",
+            "isotopes": [
+                "Xe-132",
+                "Xe-129",
+                "Xe-131"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                18,
+                8
+            ]
+        },
+        {
+            "symbol": "Cs",
+            "atomic_number": 55,
+            "valence_electrons": 1,
+            "name_en": "Caesium",
+            "name_sv": "Cesium",
+            "type": "alkali",
+            "atomic_weight": 132.905,
+            "year_discovered": 1860,
+            "discovered_by": "Bunsen & Kirchhoff",
+            "isotopes": [
+                "Cs-133"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                18,
+                8,
+                1
+            ]
+        },
+        {
+            "symbol": "Ba",
+            "atomic_number": 56,
+            "valence_electrons": 2,
+            "name_en": "Barium",
+            "name_sv": "Barium",
+            "type": "alkaline",
+            "atomic_weight": 137.327,
+            "year_discovered": 1808,
+            "discovered_by": "Humphry Davy",
+            "isotopes": [
+                "Ba-138",
+                "Ba-137",
+                "Ba-136"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                18,
+                8,
+                2
+            ]
+        },
+        {
+            "symbol": "La",
+            "atomic_number": 57,
+            "valence_electrons": 3,
+            "name_en": "Lanthanum",
+            "name_sv": "Lantan",
+            "type": "lanthanide",
+            "atomic_weight": 138.905,
+            "year_discovered": 1839,
+            "discovered_by": "Carl Gustaf Mosander",
+            "isotopes": [
+                "La-139",
+                "La-138"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                18,
+                9,
+                2
+            ]
+        },
+        {
+            "symbol": "Hf",
+            "atomic_number": 72,
+            "valence_electrons": 2,
+            "name_en": "Hafnium",
+            "name_sv": "Hafnium",
+            "type": "transition",
+            "atomic_weight": 178.49,
+            "year_discovered": 1923,
+            "discovered_by": "Coster & de Hevesy",
+            "isotopes": [
+                "Hf-180",
+                "Hf-178",
+                "Hf-177"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                10,
+                2
+            ]
+        },
+        {
+            "symbol": "Ta",
+            "atomic_number": 73,
+            "valence_electrons": 2,
+            "name_en": "Tantalum",
+            "name_sv": "Tantal",
+            "type": "transition",
+            "atomic_weight": 180.948,
+            "year_discovered": 1802,
+            "discovered_by": "Anders Gustaf Ekeberg",
+            "isotopes": [
+                "Ta-181",
+                "Ta-180"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                11,
+                2
+            ]
+        },
+        {
+            "symbol": "W",
+            "atomic_number": 74,
+            "valence_electrons": 2,
+            "name_en": "Tungsten",
+            "name_sv": "Volfram",
+            "type": "transition",
+            "atomic_weight": 183.84,
+            "year_discovered": 1783,
+            "discovered_by": "Jose & Fausto Elhuyar",
+            "isotopes": [
+                "W-184",
+                "W-186",
+                "W-182"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                12,
+                2
+            ]
+        },
+        {
+            "symbol": "Re",
+            "atomic_number": 75,
+            "valence_electrons": 2,
+            "name_en": "Rhenium",
+            "name_sv": "Rhenium",
+            "type": "transition",
+            "atomic_weight": 186.207,
+            "year_discovered": 1925,
+            "discovered_by": "Noddack, Tacke & Berg",
+            "isotopes": [
+                "Re-187",
+                "Re-185"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                13,
+                2
+            ]
+        },
+        {
+            "symbol": "Os",
+            "atomic_number": 76,
+            "valence_electrons": 2,
+            "name_en": "Osmium",
+            "name_sv": "Osmium",
+            "type": "transition",
+            "atomic_weight": 190.23,
+            "year_discovered": 1803,
+            "discovered_by": "Smithson Tennant",
+            "isotopes": [
+                "Os-192",
+                "Os-190",
+                "Os-188"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                14,
+                2
+            ]
+        },
+        {
+            "symbol": "Ir",
+            "atomic_number": 77,
+            "valence_electrons": 2,
+            "name_en": "Iridium",
+            "name_sv": "Iridium",
+            "type": "transition",
+            "atomic_weight": 192.217,
+            "year_discovered": 1803,
+            "discovered_by": "Smithson Tennant",
+            "isotopes": [
+                "Ir-193",
+                "Ir-191"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                15,
+                2
+            ]
+        },
+        {
+            "symbol": "Pt",
+            "atomic_number": 78,
+            "valence_electrons": 2,
+            "name_en": "Platinum",
+            "name_sv": "Platina",
+            "type": "transition",
+            "atomic_weight": 195.084,
+            "year_discovered": 1735,
+            "discovered_by": "Antonio de Ulloa",
+            "isotopes": [
+                "Pt-195",
+                "Pt-194",
+                "Pt-196"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                17,
+                1
+            ]
+        },
+        {
+            "symbol": "Au",
+            "atomic_number": 79,
+            "valence_electrons": 1,
+            "name_en": "Gold",
+            "name_sv": "Guld",
+            "type": "transition",
+            "atomic_weight": 196.967,
+            "year_discovered": null,
+            "discovered_by": "Ancient",
+            "isotopes": [
+                "Au-197"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                18,
+                1
+            ]
+        },
+        {
+            "symbol": "Hg",
+            "atomic_number": 80,
+            "valence_electrons": 2,
+            "name_en": "Mercury",
+            "name_sv": "Kvicksilver",
+            "type": "transition",
+            "atomic_weight": 200.592,
+            "year_discovered": null,
+            "discovered_by": "Ancient",
+            "isotopes": [
+                "Hg-202",
+                "Hg-200",
+                "Hg-198"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                18,
+                2
+            ]
+        },
+        {
+            "symbol": "Tl",
+            "atomic_number": 81,
+            "valence_electrons": 3,
+            "name_en": "Thallium",
+            "name_sv": "Tallium",
+            "type": "post_trans",
+            "atomic_weight": 204.38,
+            "year_discovered": 1861,
+            "discovered_by": "William Crookes",
+            "isotopes": [
+                "Tl-205",
+                "Tl-203"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                18,
+                3
+            ]
+        },
+        {
+            "symbol": "Pb",
+            "atomic_number": 82,
+            "valence_electrons": 4,
+            "name_en": "Lead",
+            "name_sv": "Bly",
+            "type": "post_trans",
+            "atomic_weight": 207.2,
+            "year_discovered": null,
+            "discovered_by": "Ancient",
+            "isotopes": [
+                "Pb-208",
+                "Pb-206",
+                "Pb-207"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                18,
+                4
+            ]
+        },
+        {
+            "symbol": "Bi",
+            "atomic_number": 83,
+            "valence_electrons": 5,
+            "name_en": "Bismuth",
+            "name_sv": "Vismut",
+            "type": "post_trans",
+            "atomic_weight": 208.98,
+            "year_discovered": 1753,
+            "discovered_by": "Claude Francois Geoffroy",
+            "isotopes": [
+                "Bi-209"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                18,
+                5
+            ]
+        },
+        {
+            "symbol": "Po",
+            "atomic_number": 84,
+            "valence_electrons": 6,
+            "name_en": "Polonium",
+            "name_sv": "Polonium",
+            "type": "post_trans",
+            "atomic_weight": 209.0,
+            "year_discovered": 1898,
+            "discovered_by": "Marie & Pierre Curie",
+            "isotopes": [
+                "Po-210",
+                "Po-209"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                18,
+                6
+            ]
+        },
+        {
+            "symbol": "At",
+            "atomic_number": 85,
+            "valence_electrons": 7,
+            "name_en": "Astatine",
+            "name_sv": "Astat",
+            "type": "halogen",
+            "atomic_weight": 210.0,
+            "year_discovered": 1940,
+            "discovered_by": "Corson, MacKenzie & Segre",
+            "isotopes": [
+                "At-210",
+                "At-211"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                18,
+                7
+            ]
+        },
+        {
+            "symbol": "Rn",
+            "atomic_number": 86,
+            "valence_electrons": 8,
+            "name_en": "Radon",
+            "name_sv": "Radon",
+            "type": "noble",
+            "atomic_weight": 222.0,
+            "year_discovered": 1900,
+            "discovered_by": "Friedrich Ernst Dorn",
+            "isotopes": [
+                "Rn-222",
+                "Rn-220"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                18,
+                8
+            ]
+        },
+        {
+            "symbol": "Fr",
+            "atomic_number": 87,
+            "valence_electrons": 1,
+            "name_en": "Francium",
+            "name_sv": "Francium",
+            "type": "alkali",
+            "atomic_weight": 223.0,
+            "year_discovered": 1939,
+            "discovered_by": "Marguerite Perey",
+            "isotopes": [
+                "Fr-223"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                18,
+                8,
+                1
+            ]
+        },
+        {
+            "symbol": "Ra",
+            "atomic_number": 88,
+            "valence_electrons": 2,
+            "name_en": "Radium",
+            "name_sv": "Radium",
+            "type": "alkaline",
+            "atomic_weight": 226.0,
+            "year_discovered": 1898,
+            "discovered_by": "Marie & Pierre Curie",
+            "isotopes": [
+                "Ra-226",
+                "Ra-228"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                18,
+                8,
+                2
+            ]
+        },
+        {
+            "symbol": "Ac",
+            "atomic_number": 89,
+            "valence_electrons": 3,
+            "name_en": "Actinium",
+            "name_sv": "Aktinium",
+            "type": "actinide",
+            "atomic_weight": 227.0,
+            "year_discovered": 1899,
+            "discovered_by": "Andre-Louis Debierne",
+            "isotopes": [
+                "Ac-227"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                18,
+                9,
+                2
+            ]
+        },
+        {
+            "symbol": "Rf",
+            "atomic_number": 104,
+            "valence_electrons": 2,
+            "name_en": "Rutherfordium",
+            "name_sv": "Rutherfordium",
+            "type": "transition",
+            "atomic_weight": 267.0,
+            "year_discovered": 1969,
+            "discovered_by": "Flerov & Ghiorso teams",
+            "isotopes": [
+                "Rf-267",
+                "Rf-265"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                32,
+                10,
+                2
+            ]
+        },
+        {
+            "symbol": "Db",
+            "atomic_number": 105,
+            "valence_electrons": 2,
+            "name_en": "Dubnium",
+            "name_sv": "Dubnium",
+            "type": "transition",
+            "atomic_weight": 268.0,
+            "year_discovered": 1970,
+            "discovered_by": "Flerov & Ghiorso teams",
+            "isotopes": [
+                "Db-268",
+                "Db-270"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                32,
+                11,
+                2
+            ]
+        },
+        {
+            "symbol": "Sg",
+            "atomic_number": 106,
+            "valence_electrons": 2,
+            "name_en": "Seaborgium",
+            "name_sv": "Seaborgium",
+            "type": "transition",
+            "atomic_weight": 271.0,
+            "year_discovered": 1974,
+            "discovered_by": "Albert Ghiorso et al.",
+            "isotopes": [
+                "Sg-271",
+                "Sg-269"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                32,
+                12,
+                2
+            ]
+        },
+        {
+            "symbol": "Bh",
+            "atomic_number": 107,
+            "valence_electrons": 2,
+            "name_en": "Bohrium",
+            "name_sv": "Bohrium",
+            "type": "transition",
+            "atomic_weight": 272.0,
+            "year_discovered": 1981,
+            "discovered_by": "GSI Helmholtz Centre",
+            "isotopes": [
+                "Bh-272",
+                "Bh-274"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                32,
+                13,
+                2
+            ]
+        },
+        {
+            "symbol": "Hs",
+            "atomic_number": 108,
+            "valence_electrons": 2,
+            "name_en": "Hassium",
+            "name_sv": "Hassium",
+            "type": "transition",
+            "atomic_weight": 277.0,
+            "year_discovered": 1984,
+            "discovered_by": "GSI Helmholtz Centre",
+            "isotopes": [
+                "Hs-277",
+                "Hs-276"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                32,
+                14,
+                2
+            ]
+        },
+        {
+            "symbol": "Mt",
+            "atomic_number": 109,
+            "valence_electrons": 2,
+            "name_en": "Meitnerium",
+            "name_sv": "Meitnerium",
+            "type": "unknown",
+            "atomic_weight": 278.0,
+            "year_discovered": 1982,
+            "discovered_by": "GSI Helmholtz Centre",
+            "isotopes": [
+                "Mt-278"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                32,
+                15,
+                2
+            ]
+        },
+        {
+            "symbol": "Ds",
+            "atomic_number": 110,
+            "valence_electrons": 2,
+            "name_en": "Darmstadtium",
+            "name_sv": "Darmstadtium",
+            "type": "unknown",
+            "atomic_weight": 281.0,
+            "year_discovered": 1994,
+            "discovered_by": "GSI Helmholtz Centre",
+            "isotopes": [
+                "Ds-281"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                32,
+                17,
+                1
+            ]
+        },
+        {
+            "symbol": "Rg",
+            "atomic_number": 111,
+            "valence_electrons": 1,
+            "name_en": "Roentgenium",
+            "name_sv": "Rontgenium",
+            "type": "unknown",
+            "atomic_weight": 282.0,
+            "year_discovered": 1994,
+            "discovered_by": "GSI Helmholtz Centre",
+            "isotopes": [
+                "Rg-282"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                32,
+                18,
+                1
+            ]
+        },
+        {
+            "symbol": "Cn",
+            "atomic_number": 112,
+            "valence_electrons": 2,
+            "name_en": "Copernicium",
+            "name_sv": "Kopernicum",
+            "type": "unknown",
+            "atomic_weight": 285.0,
+            "year_discovered": 1996,
+            "discovered_by": "GSI Helmholtz Centre",
+            "isotopes": [
+                "Cn-285"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                32,
+                18,
+                2
+            ]
+        },
+        {
+            "symbol": "Nh",
+            "atomic_number": 113,
+            "valence_electrons": 3,
+            "name_en": "Nihonium",
+            "name_sv": "Nihonium",
+            "type": "unknown",
+            "atomic_weight": 286.0,
+            "year_discovered": 2004,
+            "discovered_by": "RIKEN institute",
+            "isotopes": [
+                "Nh-286"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                32,
+                18,
+                3
+            ]
+        },
+        {
+            "symbol": "Fl",
+            "atomic_number": 114,
+            "valence_electrons": 2,
+            "name_en": "Flerovium",
+            "name_sv": "Flerovium",
+            "type": "unknown",
+            "atomic_weight": 289.0,
+            "year_discovered": 1999,
+            "discovered_by": "Flerov Laboratory",
+            "isotopes": [
+                "Fl-289"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                32,
+                18,
+                4
+            ]
+        },
+        {
+            "symbol": "Mc",
+            "atomic_number": 115,
+            "valence_electrons": 3,
+            "name_en": "Moscovium",
+            "name_sv": "Moscovium",
+            "type": "unknown",
+            "atomic_weight": 290.0,
+            "year_discovered": 2003,
+            "discovered_by": "Flerov Laboratory",
+            "isotopes": [
+                "Mc-290"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                32,
+                18,
+                5
+            ]
+        },
+        {
+            "symbol": "Lv",
+            "atomic_number": 116,
+            "valence_electrons": 2,
+            "name_en": "Livermorium",
+            "name_sv": "Livermorium",
+            "type": "unknown",
+            "atomic_weight": 293.0,
+            "year_discovered": 2000,
+            "discovered_by": "Flerov Laboratory",
+            "isotopes": [
+                "Lv-293"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                32,
+                18,
+                6
+            ]
+        },
+        {
+            "symbol": "Ts",
+            "atomic_number": 117,
+            "valence_electrons": 7,
+            "name_en": "Tennessine",
+            "name_sv": "Tennessine",
+            "type": "unknown",
+            "atomic_weight": 294.0,
+            "year_discovered": 2010,
+            "discovered_by": "Joint Institute for Nuclear Research",
+            "isotopes": [
+                "Ts-294"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                32,
+                18,
+                7
+            ]
+        },
+        {
+            "symbol": "Og",
+            "atomic_number": 118,
+            "valence_electrons": 8,
+            "name_en": "Oganesson",
+            "name_sv": "Oganesson",
+            "type": "unknown",
+            "atomic_weight": 294.0,
+            "year_discovered": 2002,
+            "discovered_by": "Flerov Laboratory",
+            "isotopes": [
+                "Og-294"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                32,
+                18,
+                8
+            ]
+        },
+        null,
+        null,
+        null,
+        {
+            "symbol": "Ce",
+            "atomic_number": 58,
+            "valence_electrons": 2,
+            "name_en": "Cerium",
+            "name_sv": "Cerium",
+            "type": "lanthanide",
+            "atomic_weight": 140.116,
+            "year_discovered": 1803,
+            "discovered_by": "Berzelius & Hisinger",
+            "isotopes": [
+                "Ce-140",
+                "Ce-142",
+                "Ce-138"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                19,
+                9,
+                2
+            ]
+        },
+        {
+            "symbol": "Pr",
+            "atomic_number": 59,
+            "valence_electrons": 3,
+            "name_en": "Praseodymium",
+            "name_sv": "Praseodym",
+            "type": "lanthanide",
+            "atomic_weight": 140.908,
+            "year_discovered": 1885,
+            "discovered_by": "Carl Auer von Welsbach",
+            "isotopes": [
+                "Pr-141"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                21,
+                8,
+                2
+            ]
+        },
+        {
+            "symbol": "Nd",
+            "atomic_number": 60,
+            "valence_electrons": 3,
+            "name_en": "Neodymium",
+            "name_sv": "Neodym",
+            "type": "lanthanide",
+            "atomic_weight": 144.242,
+            "year_discovered": 1885,
+            "discovered_by": "Carl Auer von Welsbach",
+            "isotopes": [
+                "Nd-142",
+                "Nd-144",
+                "Nd-146"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                22,
+                8,
+                2
+            ]
+        },
+        {
+            "symbol": "Pm",
+            "atomic_number": 61,
+            "valence_electrons": 3,
+            "name_en": "Promethium",
+            "name_sv": "Prometium",
+            "type": "lanthanide",
+            "atomic_weight": 145.0,
+            "year_discovered": 1945,
+            "discovered_by": "Marinsky, Glendenin & Coryell",
+            "isotopes": [
+                "Pm-145",
+                "Pm-147"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                23,
+                8,
+                2
+            ]
+        },
+        {
+            "symbol": "Sm",
+            "atomic_number": 62,
+            "valence_electrons": 3,
+            "name_en": "Samarium",
+            "name_sv": "Samarium",
+            "type": "lanthanide",
+            "atomic_weight": 150.36,
+            "year_discovered": 1879,
+            "discovered_by": "Paul-Emile Lecoq de Boisbaudran",
+            "isotopes": [
+                "Sm-152",
+                "Sm-154",
+                "Sm-147"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                24,
+                8,
+                2
+            ]
+        },
+        {
+            "symbol": "Eu",
+            "atomic_number": 63,
+            "valence_electrons": 3,
+            "name_en": "Europium",
+            "name_sv": "Europium",
+            "type": "lanthanide",
+            "atomic_weight": 151.964,
+            "year_discovered": 1901,
+            "discovered_by": "Eugene-Anatole Demarcay",
+            "isotopes": [
+                "Eu-153",
+                "Eu-151"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                25,
+                8,
+                2
+            ]
+        },
+        {
+            "symbol": "Gd",
+            "atomic_number": 64,
+            "valence_electrons": 3,
+            "name_en": "Gadolinium",
+            "name_sv": "Gadolinium",
+            "type": "lanthanide",
+            "atomic_weight": 157.25,
+            "year_discovered": 1880,
+            "discovered_by": "Jean Charles Galissard de Marignac",
+            "isotopes": [
+                "Gd-158",
+                "Gd-156",
+                "Gd-160"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                25,
+                9,
+                2
+            ]
+        },
+        {
+            "symbol": "Tb",
+            "atomic_number": 65,
+            "valence_electrons": 3,
+            "name_en": "Terbium",
+            "name_sv": "Terbium",
+            "type": "lanthanide",
+            "atomic_weight": 158.925,
+            "year_discovered": 1843,
+            "discovered_by": "Carl Gustaf Mosander",
+            "isotopes": [
+                "Tb-159"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                27,
+                8,
+                2
+            ]
+        },
+        {
+            "symbol": "Dy",
+            "atomic_number": 66,
+            "valence_electrons": 3,
+            "name_en": "Dysprosium",
+            "name_sv": "Dysprosium",
+            "type": "lanthanide",
+            "atomic_weight": 162.5,
+            "year_discovered": 1886,
+            "discovered_by": "Paul-Emile Lecoq de Boisbaudran",
+            "isotopes": [
+                "Dy-164",
+                "Dy-162",
+                "Dy-163"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                28,
+                8,
+                2
+            ]
+        },
+        {
+            "symbol": "Ho",
+            "atomic_number": 67,
+            "valence_electrons": 3,
+            "name_en": "Holmium",
+            "name_sv": "Holmium",
+            "type": "lanthanide",
+            "atomic_weight": 164.93,
+            "year_discovered": 1879,
+            "discovered_by": "Marc Delafontaine",
+            "isotopes": [
+                "Ho-165"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                29,
+                8,
+                2
+            ]
+        },
+        {
+            "symbol": "Er",
+            "atomic_number": 68,
+            "valence_electrons": 3,
+            "name_en": "Erbium",
+            "name_sv": "Erbium",
+            "type": "lanthanide",
+            "atomic_weight": 167.259,
+            "year_discovered": 1843,
+            "discovered_by": "Carl Gustaf Mosander",
+            "isotopes": [
+                "Er-166",
+                "Er-168",
+                "Er-167"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                30,
+                8,
+                2
+            ]
+        },
+        {
+            "symbol": "Tm",
+            "atomic_number": 69,
+            "valence_electrons": 3,
+            "name_en": "Thulium",
+            "name_sv": "Tulium",
+            "type": "lanthanide",
+            "atomic_weight": 168.934,
+            "year_discovered": 1879,
+            "discovered_by": "Per Teodor Cleve",
+            "isotopes": [
+                "Tm-169"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                31,
+                8,
+                2
+            ]
+        },
+        {
+            "symbol": "Yb",
+            "atomic_number": 70,
+            "valence_electrons": 3,
+            "name_en": "Ytterbium",
+            "name_sv": "Ytterbium",
+            "type": "lanthanide",
+            "atomic_weight": 173.054,
+            "year_discovered": 1878,
+            "discovered_by": "Jean Charles Galissard de Marignac",
+            "isotopes": [
+                "Yb-174",
+                "Yb-172",
+                "Yb-173"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                8,
+                2
+            ]
+        },
+        {
+            "symbol": "Lu",
+            "atomic_number": 71,
+            "valence_electrons": 3,
+            "name_en": "Lutetium",
+            "name_sv": "Lutetium",
+            "type": "lanthanide",
+            "atomic_weight": 174.967,
+            "year_discovered": 1907,
+            "discovered_by": "Georges Urbain",
+            "isotopes": [
+                "Lu-175",
+                "Lu-176"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                9,
+                2
+            ]
+        },
+        null,
+        null,
+        null,
+        null,
+        {
+            "symbol": "Th",
+            "atomic_number": 90,
+            "valence_electrons": 2,
+            "name_en": "Thorium",
+            "name_sv": "Torium",
+            "type": "actinide",
+            "atomic_weight": 232.038,
+            "year_discovered": 1829,
+            "discovered_by": "Jons Jacob Berzelius",
+            "isotopes": [
+                "Th-232",
+                "Th-230"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                18,
+                10,
+                2
+            ]
+        },
+        {
+            "symbol": "Pa",
+            "atomic_number": 91,
+            "valence_electrons": 2,
+            "name_en": "Protactinium",
+            "name_sv": "Protaktinium",
+            "type": "actinide",
+            "atomic_weight": 231.036,
+            "year_discovered": 1913,
+            "discovered_by": "Fajans & Gohring",
+            "isotopes": [
+                "Pa-231"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                20,
+                9,
+                2
+            ]
+        },
+        {
+            "symbol": "U",
+            "atomic_number": 92,
+            "valence_electrons": 2,
+            "name_en": "Uranium",
+            "name_sv": "Uran",
+            "type": "actinide",
+            "atomic_weight": 238.029,
+            "year_discovered": 1789,
+            "discovered_by": "Martin Heinrich Klaproth",
+            "isotopes": [
+                "U-238",
+                "U-235",
+                "U-234"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                21,
+                9,
+                2
+            ]
+        },
+        {
+            "symbol": "Np",
+            "atomic_number": 93,
+            "valence_electrons": 2,
+            "name_en": "Neptunium",
+            "name_sv": "Neptunium",
+            "type": "actinide",
+            "atomic_weight": 237.0,
+            "year_discovered": 1940,
+            "discovered_by": "McMillan & Abelson",
+            "isotopes": [
+                "Np-237",
+                "Np-239"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                22,
+                9,
+                2
+            ]
+        },
+        {
+            "symbol": "Pu",
+            "atomic_number": 94,
+            "valence_electrons": 2,
+            "name_en": "Plutonium",
+            "name_sv": "Plutonium",
+            "type": "actinide",
+            "atomic_weight": 244.0,
+            "year_discovered": 1940,
+            "discovered_by": "Glenn T. Seaborg et al.",
+            "isotopes": [
+                "Pu-244",
+                "Pu-239",
+                "Pu-240"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                24,
+                8,
+                2
+            ]
+        },
+        {
+            "symbol": "Am",
+            "atomic_number": 95,
+            "valence_electrons": 2,
+            "name_en": "Americium",
+            "name_sv": "Americium",
+            "type": "actinide",
+            "atomic_weight": 243.0,
+            "year_discovered": 1944,
+            "discovered_by": "Glenn T. Seaborg et al.",
+            "isotopes": [
+                "Am-243",
+                "Am-241"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                25,
+                8,
+                2
+            ]
+        },
+        {
+            "symbol": "Cm",
+            "atomic_number": 96,
+            "valence_electrons": 2,
+            "name_en": "Curium",
+            "name_sv": "Curium",
+            "type": "actinide",
+            "atomic_weight": 247.0,
+            "year_discovered": 1944,
+            "discovered_by": "Glenn T. Seaborg et al.",
+            "isotopes": [
+                "Cm-247",
+                "Cm-248"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                25,
+                9,
+                2
+            ]
+        },
+        {
+            "symbol": "Bk",
+            "atomic_number": 97,
+            "valence_electrons": 2,
+            "name_en": "Berkelium",
+            "name_sv": "Berkelium",
+            "type": "actinide",
+            "atomic_weight": 247.0,
+            "year_discovered": 1949,
+            "discovered_by": "Glenn T. Seaborg et al.",
+            "isotopes": [
+                "Bk-247",
+                "Bk-249"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                26,
+                9,
+                2
+            ]
+        },
+        {
+            "symbol": "Cf",
+            "atomic_number": 98,
+            "valence_electrons": 2,
+            "name_en": "Californium",
+            "name_sv": "Californium",
+            "type": "actinide",
+            "atomic_weight": 251.0,
+            "year_discovered": 1950,
+            "discovered_by": "Glenn T. Seaborg et al.",
+            "isotopes": [
+                "Cf-251",
+                "Cf-252"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                28,
+                8,
+                2
+            ]
+        },
+        {
+            "symbol": "Es",
+            "atomic_number": 99,
+            "valence_electrons": 2,
+            "name_en": "Einsteinium",
+            "name_sv": "Einsteinium",
+            "type": "actinide",
+            "atomic_weight": 252.0,
+            "year_discovered": 1952,
+            "discovered_by": "Ghiorso et al.",
+            "isotopes": [
+                "Es-252",
+                "Es-253"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                29,
+                8,
+                2
+            ]
+        },
+        {
+            "symbol": "Fm",
+            "atomic_number": 100,
+            "valence_electrons": 2,
+            "name_en": "Fermium",
+            "name_sv": "Fermium",
+            "type": "actinide",
+            "atomic_weight": 257.0,
+            "year_discovered": 1952,
+            "discovered_by": "Ghiorso et al.",
+            "isotopes": [
+                "Fm-257",
+                "Fm-255"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                30,
+                8,
+                2
+            ]
+        },
+        {
+            "symbol": "Md",
+            "atomic_number": 101,
+            "valence_electrons": 2,
+            "name_en": "Mendelevium",
+            "name_sv": "Mendelevium",
+            "type": "actinide",
+            "atomic_weight": 258.0,
+            "year_discovered": 1955,
+            "discovered_by": "Glenn T. Seaborg et al.",
+            "isotopes": [
+                "Md-258",
+                "Md-256"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                31,
+                8,
+                2
+            ]
+        },
+        {
+            "symbol": "No",
+            "atomic_number": 102,
+            "valence_electrons": 2,
+            "name_en": "Nobelium",
+            "name_sv": "Nobelium",
+            "type": "actinide",
+            "atomic_weight": 259.0,
+            "year_discovered": 1966,
+            "discovered_by": "Flerov Laboratory",
+            "isotopes": [
+                "No-259",
+                "No-255"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                32,
+                8,
+                2
+            ]
+        },
+        {
+            "symbol": "Lr",
+            "atomic_number": 103,
+            "valence_electrons": 3,
+            "name_en": "Lawrencium",
+            "name_sv": "Lawrencium",
+            "type": "actinide",
+            "atomic_weight": 266.0,
+            "year_discovered": 1961,
+            "discovered_by": "Ghiorso et al.",
+            "isotopes": [
+                "Lr-266",
+                "Lr-261"
+            ],
+            "electrons_per_level": [
+                2,
+                8,
+                18,
+                32,
+                32,
+                8,
+                3
+            ]
+        },
+        null
+    ]
+}
