@@ -1,3 +1,4 @@
+/* General stuff */
 body {
     font-family: Consolas, monospace;
     background: #1e1e1e;
@@ -27,50 +28,24 @@ button {
     cursor: pointer;
 }
 
-.funny_button {
-    background: #fa49e2;
-}
-
-#display-box {
-    background: #2d2d2d;
-    color: white;
-    padding: 12px;
-    border-radius: 4px;
-    border: 1px solid #555;
-}
-
+/* Id targeting */
 #button_grid {
     display: grid;   
 }
 
-#container {
+#ptable_container {
   display: flex;
-  justify-content: center;   /* center horizontally */
-  align-items: center;       /* center vertically (if it has height) */
-  gap: 20px;                 /* space between the two divs */
-}
-
-.grid-tile {
-    position: relative;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-}
-
-.tile-overlay {
-    position: absolute;
-    inset: 0;
-    background: transparent;
-    border: none;
-    cursor: pointer;
+  justify-content: center;  
+  align-items: stretch;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
 }
 
 #display_box {
+    position: relative;
     width: 300px;
-    height: 120px;
+    height: auto;
     padding: 12px;
 
     background-color: #1e1e1e;
@@ -83,9 +58,39 @@ button {
     font-family: Arial, sans-serif;
 
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 
     text-align: center;
     overflow: hidden;
 }
+
+/* Class targeting */
+.element_div {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.element_button {
+    position: absolute;
+    inset: 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.corner {
+    position: absolute ;
+    margin: 1rem;
+}
+
+.corner.top_left     { top: 0;    left: 0; }
+.corner.top_right    { top: 0;    right: 0; }
+.corner.bottom_left  { bottom: 0; left: 0; }
+.corner.bottom_right { bottom: 0; right: 0; }
