@@ -27,17 +27,32 @@ class niceButton {
 
 class displayBox {
     constructor() {
-        this.element = document.getElementById("display_box");
+        this.atomic_number_text = document.getElementById("atomic_number_text");
+        this.electron_text = document.getElementById("electrons_text");
         this.symbol_text = document.getElementById("symbol_text");
         this.name_text = document.getElementById("name_text");
         this.additional_info_text = document.getElementById("additional_info_text");
-        this.atomic_number_text = document.getElementById("atomic_number_text")
-        console.log("Created displaybox")
+        this.element = document.getElementById("display_box");
+        console.log("Created displaybox");
     }
 
     display_element(element, i) {
+        this.atomic_number_text.textContent = element.atomic_number
         this.symbol_text.textContent = element.symbol
-        this.atomic_number_text.textContent = i
+        let name = element.name_en
+        if (element.name_en !== element.name_sv) {
+            name = name + ` (${element.name_sv})`
+        }
+        this.name_text.textContent = name
+        this.electron_text.textContent = construct_electron_config(element.electrons_per_level)
+        this.additional_info_text.textContent = `Valence electrons: ${element.valence_electrons} \n Hello`
+    }
+
+    construct_electron_config(electrons_per_level) {
+        str = electrons_per_level[0]
+        
+        str = str + " - " + electrons_per_level[1]
+        return "1-1-1"
     }
 }
 
@@ -56,14 +71,14 @@ async function populate_button_grid() {
         } else {
             button_grid.appendChild(document.createElement("div"))
         }
-        
+
     }
 }
 
 function toggle_dark_mode() {
     const isDark = document.documentElement.classList.toggle("dark");
     localStorage.setItem("dark", isDark);
-    document.getElementById("theme_btn").textContent = isDark ? "🌙 Dark mode" : "☀️ Light mode" ;
+    document.getElementById("theme_btn").textContent = isDark ? "☀️" : "🌙";
 }
 
 // <-- On load -->
@@ -81,4 +96,6 @@ const db = new displayBox()
 
 if (localStorage.getItem("dark") === "true") {
     document.documentElement.classList.add("dark");
+    document.getElementById("theme_btn").textContent = "☀️";
 }
+

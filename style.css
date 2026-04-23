@@ -1,52 +1,30 @@
 /* ── Variables ───────────────────────────────────────────── */
 :root {
-    --alpha: 0.8;
+    --alpha: 0.75;
 
-    --color-alkali:     hsla(0,   75%, 60%, var(--alpha));
-    --color-alkaline:   hsla(33,  85%, 56%, var(--alpha));
-    --color-transition: hsla(213, 65%, 57%, var(--alpha));
-    --color-post_trans: hsla(93,  43%, 61%, var(--alpha));
-    --color-metalloid:  hsla(50,  55%, 55%, var(--alpha));
-    --color-nonmetal:   hsla(120, 43%, 55%, var(--alpha));
-    --color-halogen:    hsla(308, 35%, 70%, var(--alpha));
-    --color-noble:      hsla(290, 40%, 63%, var(--alpha));
-    --color-lanthanide: hsla(188, 52%, 55%, var(--alpha));
-    --color-actinide:   hsla(120, 32%, 60%, var(--alpha));
-    --color-unknown:    hsla(0,   0%,  69%, var(--alpha));
+    --color-alkali:     hsla(0,   70%, 65%, var(--alpha));
+    --color-alkaline:   hsla(30,  75%, 68%, var(--alpha));
+    --color-transition: hsla(210, 55%, 68%, var(--alpha));
+    --color-post_trans: hsla(90,  40%, 65%, var(--alpha));
+    --color-metalloid:  hsla(48,  50%, 65%, var(--alpha));
+    --color-nonmetal:   hsla(150, 40%, 65%, var(--alpha));
+    --color-halogen:    hsla(300, 30%, 72%, var(--alpha));
+    --color-noble:      hsla(270, 35%, 70%, var(--alpha));
+    --color-lanthanide: hsla(185, 45%, 65%, var(--alpha));
+    --color-actinide:   hsla(160, 35%, 63%, var(--alpha));
+    --color-unknown:    hsla(0,   0%,  72%, var(--alpha));
 
-    --color-text:        #1a1a1a;
-    --color-bg:          #f4f1ec;
-    --color-input-bg:    #e0ddd7;
-    --color-input-border:#999;
-    --color-button-bg:   #4a90d9;
-    --color-button-border:#2a6db5;
-    --color-box-bg:      #e8e4de;
-    --color-box-border:  #4a90d9;
+    --color-text:   #2a2a2a;
+    --color-bg:     #f5f2e8;   /* mayonnaise */
+    --color-surface:#dddbd4;   /* grey — used for bar, boxes, inputs */
+    --color-accent: #1e1f1d;   /* one muted blue for borders + buttons */
 }
 
 html.dark {
-    --alpha: 0.5;
-
-    --color-alkali:     hsla(0,   75%, 55%, var(--alpha));
-    --color-alkaline:   hsla(33,  85%, 50%, var(--alpha));
-    --color-transition: hsla(213, 65%, 52%, var(--alpha));
-    --color-post_trans: hsla(93,  43%, 55%, var(--alpha));
-    --color-metalloid:  hsla(50,  55%, 48%, var(--alpha));
-    --color-nonmetal:   hsla(120, 43%, 48%, var(--alpha));
-    --color-halogen:    hsla(308, 35%, 62%, var(--alpha));
-    --color-noble:      hsla(290, 40%, 55%, var(--alpha));
-    --color-lanthanide: hsla(188, 52%, 48%, var(--alpha));
-    --color-actinide:   hsla(120, 32%, 52%, var(--alpha));
-    --color-unknown:    hsla(0,   0%,  55%, var(--alpha));
-
-    --color-text:        #f0f0f0;
-    --color-bg:          #09091a;
-    --color-input-bg:    #2d2d2d;
-    --color-input-border:#555;
-    --color-button-bg:   #4a90d9;
-    --color-button-border:#1e1e1e;
-    --color-box-bg:      #1e1e1e;
-    --color-box-border:  #4a90d9;
+    --color-text:   #e8e6e0;
+    --color-bg:     #16161f;
+    --color-surface:#2a2a35;  
+    --color-accent: #f5f2e8;  
 }
 
 /* ── General ─────────────────────────────────────────────── */
@@ -58,16 +36,15 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 40px;
+    padding-top: 90px;
 }
 
 input {
-    padding: 8px 18px;
-    border: 1px solid var(--color-input-border);
-    border-radius: 4px;
-    background: var(--color-input-bg);
+    background: var(--color-surface);
+    border: 1px solid var(--color-accent);
     color: var(--color-text);
-    font-size: 16px;
 }
+
 
 button {
     padding: 8px 8px;
@@ -100,7 +77,7 @@ button {
     padding: 12px;
     background-color: var(--color-box-bg);
     color: var(--color-text);
-    border: 2px solid var(--color-box-border);
+    border: 2px solid var(--color-accent);
     border-radius: 10px;
     font-size: 18px;
     font-family: Arial, sans-serif;
@@ -112,6 +89,25 @@ button {
     overflow: hidden;
 }
 
+#top_bar {
+    position: fixed;  /* change sticky -> fixed */
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    background-color: var(--color-box-bg);  /* use your theme variable */
+    border-bottom: 2px solid var(--color-box-border);
+    z-index: 100;
+    box-sizing: border-box;
+}
+
+#additional_info_text {
+    white-space: pre-line;
+}
 /* ── Classes ─────────────────────────────────────────────── */
 .element_div {
     position: relative;
